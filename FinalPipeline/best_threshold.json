@@ -1,0 +1,16 @@
+{
+    "skull": 0.9,
+    "shoulder": 0.52,
+    "humerus": 0.58,
+    "vertebrae_C": 0.68,
+    "thorax": 0.54,
+    "vertebrae_L": 0.8,
+    "forearm": 0.4,
+    "pelvis": 0.84,
+    "femur": 0.5,
+    "hand": 0.38,
+    "patella": 0.98,
+    "shin": 0.38,
+    "tarsal": 0.7000000000000001,
+    "foot": 0.78
+}
