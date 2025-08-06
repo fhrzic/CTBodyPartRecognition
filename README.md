@@ -1,8 +1,8 @@
 # CTBodyPartRecognition
 GitHub Repository for the paper: "A simple and effective approach for body part recognition on CT scans based on projection estimation" with the preprint available at
-[https://arxiv.org/abs/2504.21810](https://arxiv.org/abs/2504.21810)
+[https://arxiv.org/abs/2504.21810](https://arxiv.org/abs/2504.21810).
 
-
+![BodyParts](skeleton.png)
 
 # Introduction
 The repository serves the purpose of repeating all experiments conducted in the research mentioned above. The repository consists of many directories, which will be briefly explained:
