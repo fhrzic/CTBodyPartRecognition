@@ -8,10 +8,10 @@ import numpy as np
 
 # Config variables
 #####################################################
-_labels_xlsx_file = "/run/user/1001/gvfs/smb-share:server=mig_data1,share=mig_projects/Object_Detection/BCH_CTs/BCH_CT_Accession_2010_2018_Labels.xlsx"
+_labels_xlsx_file = "Labels.xlsx"
 filter = ["foot", "forearm", "hand", "patella", "tarsal"]
-output_dir = "/run/user/1001/gvfs/smb-share:server=mig_data1,share=mig_projects/Object_Detection/BCH_LABEL_Part1"
-input_dir = "/mnt/SSD/BCH_CT_2010_2018/Part1/CT_2D/"
+output_dir = "BCH_LABEL_Part1"
+input_dir = "CT_2D/"
 #####################################################
 
 # Functions
@@ -60,7 +60,7 @@ def filter_labels(df: pd.DataFrame = None, filter_list: list = None, amount: int
     _id_output_list = []
 
     # Iterate through filter
-    for _filter in filter_list:
+    for _filter in filter_list:BCH_CT_Accession_2010_2018_
         # Obtain list with indexes of interes
         _extracted_list = df[df[_filter] > 0].index
         _extracted_list = _extracted_list.to_list()

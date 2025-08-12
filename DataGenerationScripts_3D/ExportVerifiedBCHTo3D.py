@@ -61,13 +61,13 @@ def main(index: int = 0, all_cases_list: list = None, nii_gz_dirs: str = None):
         
 if __name__ == '__main__':
     # Define input dir
-    _nii_gz_dirs = ["/mnt/SSD/BCH_CT/CT_2D",
-                   "/mnt/SSD/BCH_CT_2010_2018/Part1/CT_2D",
-                   "/mnt/SSD/BCH_CT_2010_2018/Part2/CT_2D",
-                   "/mnt/SSD/BCH_CT_2010_2018/Part3/CT_2D",
-                   "/mnt/SSD/BCH_CT_2010_2018/Part4/CT_2D"]
+    _nii_gz_dirs = ["CT_2D",
+                   "CT1_2D",
+                   "CT2_2D",
+                   "CT3_2D",
+                   "CT4_2D"]
     
-    _export_dir = "/mnt/SSD/Franko/Desktop/Train_BCH_NMDD_SAROS/FinalTrainingData/VERIFIED_BCH" 
+    _export_dir = "VERIFIED_BCH" 
     _number_of_processes = 30
 
     # Obtain all cases

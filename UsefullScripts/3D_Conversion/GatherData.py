@@ -132,14 +132,14 @@ def main(path_to_xlsxs: str = None,
     return _new_images_paths
 
 if __name__ == "__main__":
-    _path_to_xlsx = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_VERIFIED_PATCHES"
+    _path_to_xlsx = "NMDID_VERIFIED_PATCHES"
     _extension = ".png"
 
     _good_images = main(path_to_xlsxs=_path_to_xlsx,
                         extension=_extension)
 
 
-    _folders = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_PATCHES".strip()
+    _folders = "NMDID_PATCHES".strip()
     _directories = list_all_directories(_folders)
     for _dir in _directories:
         print(_dir)

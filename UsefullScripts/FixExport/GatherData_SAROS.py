@@ -130,13 +130,13 @@ def main(path_to_xlsxs: str = None,
     return _new_images_paths
 
 if __name__ == "__main__":
-    _path_to_xlsx = "/mnt/SSD/Franko/Desktop/FIXExport/Patches_SAROS"
+    _path_to_xlsx = "Patches_SAROS"
     _extension = ".png"
 
     _good_images = main(path_to_xlsxs=_path_to_xlsx,
                         extension=_extension)
 
-    _folders = "/mnt/HDD/SAROS/SAROS_working_data".strip()
+    _folders = "SAROS_working_data".strip()
     _directories = list_all_directories(_folders)
 
     clean_directories_based_on_images(_good_images, _directories)

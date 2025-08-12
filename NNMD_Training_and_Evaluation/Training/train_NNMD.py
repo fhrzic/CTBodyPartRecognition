@@ -18,9 +18,9 @@ def main():
     print(_loader_config)
 
     # Training dataset
-    datasetConfig.labels_xlsx_path = '/home/franko/Desktop/BodyPartTraining/Dataset/Output-Labels.xlsx'
-    datasetConfig.cheetsheet_xlsx_path = '/home/franko/Desktop/BodyPartTraining/Dataset/cheetsheet.xlsx'
-    datasetConfig.imgs_png_home_path = '/home/franko/Desktop/BodyPartTraining/Dataset/Images'
+    datasetConfig.labels_xlsx_path = 'Output-Labels.xlsx'
+    datasetConfig.cheetsheet_xlsx_path = 'cheetsheet.xlsx'
+    datasetConfig.imgs_png_home_path = 'Images'
     datasetConfig.image_sufix = "_reducted_image"
     datasetConfig.label_type = "cluster_remaped"
     datasetConfig.label_dimension = 35

@@ -1,8 +1,8 @@
 from Utils.Conversion import *
 import os
-_input_dir = r"Z:\Object_Detection_QC\unique_CT_from_MRCT_TotalSegmentator\unique_CT_from_MRCT_TotalSegmentator\CT_unique"
-_axial_output_dir = r"Z:\Object_Detection_QC\unique_CT_from_MRCT_TotalSegmentator\unique_CT_from_MRCT_TotalSegmentator\Axial_CT"
-_final_results_output_dir = r"Z:\Object_Detection_QC\unique_CT_from_MRCT_TotalSegmentator\unique_CT_from_MRCT_TotalSegmentator\Results_CTtoXRay"
+_input_dir = r"CT_unique"
+_axial_output_dir = r"Axial_CT"
+_final_results_output_dir = r"Results_CTtoXRay"
 
 _nifti_file_list = []
 for _root, _dirs, _files in os.walk(_input_dir):

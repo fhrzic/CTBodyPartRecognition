@@ -87,7 +87,7 @@ tasks = ["total", "appendicular_bones"]
 
 
 # Get input nii files
-input_dir_path = r"/mnt/HDD/NMDD/Exported_To_X-ray/"
+input_dir_path = r"Exported_To_X-ray/"
 _nifti_file_list = []
 for _root, _dirs, _files in os.walk(input_dir_path):
     for _file in _files:

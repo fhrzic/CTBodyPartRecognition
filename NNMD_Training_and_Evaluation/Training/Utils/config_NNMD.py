@@ -9,17 +9,17 @@ class datasetConfig:
     '''
     labes_xlsx_path: Path to xlsx file where export of totalSegmentor is storage
     '''
-    labels_xlsx_path = r"C:\Users\CH258598\Desktop\Current Research\BodyPartTraining\Dataset\Output-Labels.xlsx"
+    labels_xlsx_path = r"Output-Labels.xlsx"
 
     '''
     cheetsheet_xlsx_path: Path to xlsx file which contains instructions on which data to keep
     '''
-    cheetsheet_xlsx_path = r"C:\Users\CH258598\Desktop\Current Research\BodyPartTraining\Dataset\cheetsheet.xlsx"
+    cheetsheet_xlsx_path = r"cheetsheet.xlsx"
 
     '''
     Imgs_png_home_path: Root directory where the images are located
     '''
-    imgs_png_home_path = r"C:\Users\CH258598\Desktop\Current Research\BodyPartTraining\Dataset\Images"
+    imgs_png_home_path = r"Images"
 
     '''
     blacklist: Crucial for bone only, if set to False please check remapdict because it is 

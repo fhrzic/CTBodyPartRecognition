@@ -4,9 +4,9 @@ import shutil
 from Utils.Conversion import export_nifti_to_axial
 #########################################################################
 # input csv
-_csv_file_path = "/mnt/HDD/SAROS2/Segmentations/Segmentation Info.csv"
-_export_path = "/mnt/HDD/SAROS2/AXIAL_CTs"
-_input_dir = "/mnt/HDD/SAROS2/data"
+_csv_file_path = "Segmentation Info.csv"
+_export_path = "AXIAL_CTs"
+_input_dir = "data"
 #########################################################################
 
 # load to dataframe

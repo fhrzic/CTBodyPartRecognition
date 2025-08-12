@@ -9,7 +9,7 @@ class datasetConfig:
     '''
     mapping_xlsx_path_NMDD: Path to directories where each dir has results and original image in it
     '''
-    mapping_xlsx_path_NMDD = r"C:\Users\CH258598\Desktop\Current Research\BodyPartTraining\Dataset\Output-Labels.xlsx"
+    mapping_xlsx_path_NMDD = r"Dataset\Output-Labels.xlsx"
 
     '''
     batch_xlsx_path_NMDD: Path to the parent dir where "batch_x.xlsx" files are stored
@@ -19,7 +19,7 @@ class datasetConfig:
     '''
     mapping_xlsx_path_SAROS: Path to directories where each dir has results and original image in it
     '''
-    mapping_xlsx_path_SAROS = r"C:\Users\CH258598\Desktop\Current Research\BodyPartTraining\Dataset\Output-Labels.xlsx"
+    mapping_xlsx_path_SAROS = r"Dataset\Output-Labels.xlsx"
 
     '''
     batch_xlsx_path_SAROS: Path to the parent dir where "batch_x.xlsx" files are stored
@@ -30,17 +30,17 @@ class datasetConfig:
     '''
     dir_path_BCH: Path to the directory holding exported labels
     '''
-    dir_path_BCH = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\DataGenerationScripts\BCH_VERIFED"
+    dir_path_BCH = r"DataGenerationScripts\BCH_VERIFED"
 
     '''
     dir_path_NMDD: path to the 275 verified NMDD data instances
     '''
-    dir_path_NMDD = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\CheckedOutNNMD"
+    dir_path_NMDD = r"CheckedOutNNMD"
 
     '''
     dir_path_SAROS: path to the 299 verified SAROS data instances
     '''
-    dir_path_SAROS = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\CheckedOutNNMD"
+    dir_path_SAROS = r"CheckedOutNNMD"
 
     '''
     type: type of the dataset being builded: train, test, valid

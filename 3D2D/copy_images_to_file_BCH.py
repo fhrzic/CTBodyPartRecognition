@@ -3,7 +3,7 @@ import pandas as pd
 import shutil
 # Copies images from input xlsx column to target dir
 _output_dir = "/run/user/1001/gvfs/smb-share:server=mig_data1,share=mig_projects/Object_Detection/BCH_CT_TO_LABEL"
-_input_dir = "/mnt/SSD/BCH_CT/CT_2D/"
+_input_dir = "CT_2D/"
 
 # Files and dirs
 _list_of_files = []

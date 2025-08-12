@@ -72,9 +72,9 @@ def main(**kwargs):
         f"Missing arguments zips_dir, results_dir, number_of_proc, limit_number !!!"
     
     # Parse it
-    _input_dir = "/mnt/HDD/SAROS/AXIAL_CTs" # kwargs['input_dir']
-    _axial_output_dir = "/mnt/HDD/SAROS/Axial_CTs" #kwargs['axial_output_dir']
-    _final_results_output_dir = "/mnt/HDD/SAROS/Exported_To_X-ray" # kwargs['final_results_output_dir']
+    _input_dir = "AXIAL_CTs" # kwargs['input_dir']
+    _axial_output_dir = "Axial_CTs" #kwargs['axial_output_dir']
+    _final_results_output_dir = "Exported_To_X-ray" # kwargs['final_results_output_dir']
         _number_of_processes = int(kwargs['number_of_proc'])
     
     try:

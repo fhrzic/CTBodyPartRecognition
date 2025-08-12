@@ -76,8 +76,7 @@ def main(index: int = 0, all_cases_list: list = None):
 # Main Function
 if __name__ == '__main__':
     # Define input dir
-    #_export_dir = "/mnt/SSD/Franko/FullDataNNDD_Verification"
-    _export_dir = "/mnt/HDD/SAROS/SAROS_working_data"
+    _export_dir = "SAROS_working_data"
     _number_of_processes = 30
 
     # Obtain all cases

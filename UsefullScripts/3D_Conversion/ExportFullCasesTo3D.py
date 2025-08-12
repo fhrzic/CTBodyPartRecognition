@@ -43,8 +43,8 @@ def main(index: int = 0, all_cases_list: list = None, nii_gz_dir: str = None):
 # Main function
 if __name__ == '__main__':
     # Define input dir
-    _nii_gz_dir = "/mnt/HDD/SAROS/SAROS_working_data"
-    _export_dir = "/mnt/SSD/Franko/Desktop/Train_BCH_NMDD_SAROS/FinalTrainingData/Full_SAROS" 
+    _nii_gz_dir = "SAROS_working_data"
+    _export_dir = "Full_SAROS" 
     _number_of_processes = 30
 
     # Obtain all cases

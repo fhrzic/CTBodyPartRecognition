@@ -3,7 +3,7 @@ import pandas as pd
 import cv2
 import json
 # Image dir
-_input_dir =  r"C:\Users\CH258598\Desktop\Verify"
+_input_dir =  r"Verify"
 
 # Create containers
 

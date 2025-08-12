@@ -16,7 +16,7 @@ def main(input_dir: str = None,
         except:
             shutil.copy(os.path.join(input_dir, _case, "results_WRONG.xlsx"), os.path.join(_dir, "results.xlsx"))
 if __name__ == "__main__":
-    _input_dir = "/mnt/SSD/Franko/Desktop/Train_BCH_NMDD_SAROS/FinalTrainingData/Full_NMDD"
-    _output_dir = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_PATCHES"
+    _input_dir = "Full_NMDD"
+    _output_dir = "NMDID_PATCHES"
     main(input_dir = _input_dir,
          output_dir = _output_dir)

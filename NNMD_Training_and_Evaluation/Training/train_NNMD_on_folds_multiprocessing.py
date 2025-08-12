@@ -23,9 +23,9 @@ def multi_process_app(fold):
 
     print(f"STARTING TO TRAIN ON {_k}!")
     # Training dataset
-    datasetConfig.labels_xlsx_path = '/home/franko/Desktop/BodyPartTraining/Dataset/Output-Labels.xlsx'
-    datasetConfig.cheetsheet_xlsx_path = '/home/franko/Desktop/BodyPartTraining/Dataset/cheetsheet.xlsx'
-    datasetConfig.imgs_png_home_path = '/home/franko/Desktop/BodyPartTraining/Dataset/Images'
+    datasetConfig.labels_xlsx_path = 'Output-Labels.xlsx'
+    datasetConfig.cheetsheet_xlsx_path = 'cheetsheet.xlsx'
+    datasetConfig.imgs_png_home_path = 'Images'
     datasetConfig.image_sufix = "_reducted_image"
     datasetConfig.label_type = "cluster_remaped"
     datasetConfig.label_dimension = 35
@@ -66,7 +66,7 @@ def multi_process_app(fold):
     print(_model_config)
 
 
-    _training = model_training_app(_train_dl, _valid_dl, _model_config,         f"NNMD_EFF0_Training4k_fold_{_k}_REPEATED#2/")
+    _training = model_training_app(_train_dl, _valid_dl, _model_config, f"NNMD_EFF0_Training4k_fold_{_k}_REPEATED#2/")
     _training.freeze_unfreeze_model(freeze = False)
     _training.start_training()
 

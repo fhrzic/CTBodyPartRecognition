@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Input to the xlsx which has Thresholds tab in it
-_input_xlsx = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\EvaluatePipeline\results_tolerance_0.0.xlsx"
+_input_xlsx = r"results_tolerance_0.0.xlsx"
 
 # Output json file
 _output_json = "best_threshold.json"

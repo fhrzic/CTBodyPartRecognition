@@ -59,8 +59,7 @@ def delete_files_with_target_words(directory, target_words):
 
 if __name__ == "__main__":
     # Input directory from the user
-    #directory = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_PATCHES".strip()
-    directory = "/mnt/HDD/SAROS/SAROS_working_data".strip()
+    directory = "SAROS_working_data".strip()
     # List of target words to search for
     target_words = ["blobs", "TotalSegmentatior", "biggest", "filtered.nii", "original_image", "all.png", "coronal", "reduced_bounded"]
     delete_files_with_target_words(directory, target_words)

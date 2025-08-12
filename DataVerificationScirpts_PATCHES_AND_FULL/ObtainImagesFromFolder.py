@@ -3,7 +3,7 @@ import shutil
 import pandas as pd
 
 # Dict where source files are located (top level dict)
-_src_dir = "/mnt/HDD/SAROS/SAROS_working_data"
+_src_dir = "SAROS_working_data"
 _dst_dir = "Images2Label"
 
 # Create fres output dir (empty one)

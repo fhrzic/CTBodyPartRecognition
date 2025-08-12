@@ -59,7 +59,7 @@ def main():
     """
     Main scripts for the gigapixel generation
     """
-    _json = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\EvaluatePipeline\lists.json"
+    _json = r"lists.json"
     with open(_json, "r") as file:
         _data = json.load(file)
 

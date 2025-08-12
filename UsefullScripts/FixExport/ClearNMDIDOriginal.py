@@ -59,8 +59,7 @@ def delete_files_with_target_words(directory, target_words):
 
 if __name__ == "__main__":
     # Input directory from the user
-    #directory = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_PATCHES".strip()
-    directory = "/mnt/HDD/NMDD/Exported_To_X-ray".strip()
+    directory = "Exported_To_X-ray".strip()
     # List of target words to search for
     target_words = ["coronal_image", "TotalSegmentatior", "original_image"]
     delete_files_with_target_words(directory, target_words)

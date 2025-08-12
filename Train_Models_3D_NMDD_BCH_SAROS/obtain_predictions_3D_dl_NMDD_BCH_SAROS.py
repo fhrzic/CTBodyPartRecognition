@@ -20,13 +20,13 @@ loaderConfig.batch_size  = 4
 print(_loader_config)
 
 # Training dataset
-datasetConfig.mapping_xlsx_path_NMDD = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Patches_NMDD/SourceDataset.xlsx"
-datasetConfig.batch_xlsx_path_NMDD = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Patches_NMDD"
-datasetConfig.mapping_xlsx_path_SAROS = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Patches_SAROS/SourceDataset.xlsx"
-datasetConfig.batch_xlsx_path_SAROS = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Patches_SAROS"
-datasetConfig.dir_path_BCH = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/VERIFIED_BCH"
-datasetConfig.dir_path_NMDD = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Full_NMDD"
-datasetConfig.dir_path_SAROS = "/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/FinalTrainingData/Full_SAROS"
+datasetConfig.mapping_xlsx_path_NMDD = "Patches_NMDD/SourceDataset.xlsx"
+datasetConfig.batch_xlsx_path_NMDD = "Patches_NMDD"
+datasetConfig.mapping_xlsx_path_SAROS = "Patches_SAROS/SourceDataset.xlsx"
+datasetConfig.batch_xlsx_path_SAROS = "Patches_SAROS"
+datasetConfig.dir_path_BCH = "VERIFIED_BCH"
+datasetConfig.dir_path_NMDD = "Full_NMDD"
+datasetConfig.dir_path_SAROS = "Full_SAROS"
       
 datasetConfig.split_ratio = 0.75
 datasetConfig.image_dimension = 340
@@ -65,7 +65,7 @@ _root_path = "VoxCNN_3D_NMDD_BCH_SAROS_eval_preidctions_dummy_for_obtaining/"
 
 # Load model
 _training = model_training_app(None, None, _model_config, _root_path)
-_training.load_model("/mnt/SSD/Franko/Desktop/Train_Models_3D_BCH_NMDD_SAROS/VoxCNN_3D_NMDD_BCH_SAROS_vol2/VoxCNN_ADAMW_0.001_bcevalid_best_model.pth")
+_training.load_model("VoxCNN_ADAMW_0.001_bcevalid_best_model.pth")
 
 # Obtain data
 _prediction_dict = _training.model_predict_from_dl_plain_prediction(_dl)

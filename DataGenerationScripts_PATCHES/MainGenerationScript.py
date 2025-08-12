@@ -7,7 +7,7 @@ from Utils.Conversion import *
 from Utils.PatchExport import *
 
 
-xlsx_dir = "/mnt/HDD/SAROS/SAROS_working_data"
+xlsx_dir = "SAROS_working_data"
         
 def multi_process_app(index:int, paths:list):
     """

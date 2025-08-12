@@ -1,7 +1,7 @@
 from evaluationContainer import *
 
 # Data
-_xlsx_fils_dir = r"C:\Users\CH258598\Desktop\FiteredDatasetNNMD256Subset\EvaluatePipeline\Labeled"
+_xlsx_fils_dir = r"Labeled"
 _threhsold_xlsx = "results_tolerance_0.0.xlsx"
 
 # Create xlsx with predictions

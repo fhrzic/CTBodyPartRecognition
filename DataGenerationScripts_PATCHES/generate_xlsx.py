@@ -188,8 +188,8 @@ def main(export_dir: str = None,
         
 
 if __name__ == '__main__':
-    main(export_dir = "/mnt/HDD/SAROS/SAROS_working_data",
-         input_xlsx = "/home/franko/Desktop/SAROS_Export/01_TotalSegmentor/Output-Labels.xlsx",
-         input_names_xlsx= "/home/franko/Desktop/SAROS_Export/03_DataGenerationScript_Patches/cheatsheet_names.xlsx",
-         input_cheatsheet_path= "/home/franko/Desktop/SAROS_Export/03_DataGenerationScript_Patches/cheetsheet.xlsx",
+    main(export_dir = "SAROS_working_data",
+         input_xlsx = "Output-Labels.xlsx",
+         input_names_xlsx= "cheatsheet_names.xlsx",
+         input_cheatsheet_path= "cheetsheet.xlsx",
          label_type="reduced_cluster_remaped")

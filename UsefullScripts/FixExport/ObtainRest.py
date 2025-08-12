@@ -62,9 +62,9 @@ def main(input_dir_all: str = None,
                     shutil.copy(_file, os.path.join(_dir, os.path.basename(_file)))
 
 if __name__ == "__main__":
-    _input_dir_all = "/mnt/HDD/NMDD/Exported_To_X-ray"
-    _input_dir_rest = "/mnt/HDD/NMDD/Full_NMDD"
-    _export_dir = "/mnt/SSD/Franko/Desktop/FIXExport/NMDID_PATCHES"
+    _input_dir_all = "Exported_To_X-ray"
+    _input_dir_rest = "Full_NMDD"
+    _export_dir = "FIXExport/NMDID_PATCHES"
 
     main(input_dir_all= _input_dir_all, 
          input_dir_rest = _input_dir_rest,

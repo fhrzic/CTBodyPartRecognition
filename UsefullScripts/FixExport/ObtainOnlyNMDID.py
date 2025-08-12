@@ -43,8 +43,8 @@ def main(path_to_xlsx: str = None,
                 shutil.copy(_file, os.path.join(_dir, os.path.basename(_file)))
 
 if __name__ == "__main__":
-    _xlsx = "/mnt/SSD/Franko/Patches_NMDD/SourceDataset.xlsx"
-    _dir = "/mnt/HDD/NMDD/Exported_To_X-ray"
+    _xlsx = "SourceDataset.xlsx"
+    _dir = "Exported_To_X-ray"
     _export_dir = "NMDID_PATCHES"
     main(path_to_xlsx=_xlsx,
          dir = _dir,

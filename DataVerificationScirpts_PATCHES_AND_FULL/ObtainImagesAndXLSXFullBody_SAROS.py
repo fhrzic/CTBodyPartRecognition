@@ -4,7 +4,7 @@ import shutil
 
 
 # input dirs
-_input_dir = "/mnt/HDD/SAROS/SAROS_working_data"
+_input_dir = "SAROS_working_data"
 _output_dir = "SAROS_LABEL"
 
 # Create results dir

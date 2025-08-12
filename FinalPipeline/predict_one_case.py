@@ -3,13 +3,12 @@ import time
 
 # Define model
 _model_type = "dense161"
-_model_weights = "/mnt/SSD/Franko/Desktop/FinalPipeline/BestModel.pth"
+_model_weights = "BestModel.pth"
 _input_size = 224
 
 # Define input 
-#_image_path = "/home/franko/Desktop/FilteredDataNNMD256Subset/Predict_NMDD_BCH_SAROS/case-default__2.16.840.114379.3000.409.20181231.1055618.0.2_reducted_image.png"
-#_folder_path = "/home/franko/Desktop/20002289"
-_path = "/mnt/HDD/CT"
+
+_path = "CT"
 _paths =[os.path.join(_path, _f) for _f in os.listdir(_path)]
 
 _folder_path = _paths[0]

@@ -10,9 +10,9 @@ import os
 import shutil
 
 # Define input and export dirs
-_input_dir = "/mnt/HDD/SAROS/AXIAL_CTs"
-_input_dir_images = "/mnt/HDD/SAROS/Exported_To_X-ray" 
-_export_dir = "/mnt/HDD/SAROS/SAROS_working_data"
+_input_dir = "AXIAL_CTs"
+_input_dir_images = "Exported_To_X-ray" 
+_export_dir = "SAROS_working_data"
 
 # Create dir
 if os.path.exists(_export_dir):
